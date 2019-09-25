@@ -20,7 +20,7 @@ The building process may take around 1 hour, for it has to download and install 
 
 **Step 3**: create a container of the image with
 ```
-docker run -it --name container_name image_name
+docker run -v host_dir:container_dir -it --name container_name image_name
 ```
 After entering the container, the GPGPU-Sim can be built with the commands as follows
 ```

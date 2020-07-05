@@ -27,3 +27,13 @@ After entering the container, the GPGPU-Sim can be built with the commands as fo
 source setup_environment
 make
 ```
+To verify whether gpgpu-sim is successfully setup, use
+```
+echo $LD_LIBRARY_PATH
+```
+and you are expected to get
+```
+/home/gpgpu_sim/gpgpu-sim_distribution/lib/gcc-5.4.0/cuda-9010/release
+```
+```
+
